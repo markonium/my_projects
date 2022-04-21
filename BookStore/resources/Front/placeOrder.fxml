@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="197.0" prefWidth="679.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Front.placeOrder">
+   <children>
+      <Label fx:id="error" layoutX="167.0" layoutY="49.0" prefHeight="26.0" prefWidth="466.0" textFill="#f80303">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="2.0" prefHeight="40.0" prefWidth="115.0" text="Order books" textFill="#2f19d9">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="amount" layoutX="240.0" layoutY="123.0" prefHeight="26.0" prefWidth="199.0" />
+      <Label layoutX="60.0" layoutY="125.0" prefHeight="22.0" prefWidth="178.0" text="Enter amount of books :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="494.0" layoutY="125.0" mnemonicParsing="false" onAction="#order" prefHeight="40.0" prefWidth="132.0" styleClass="regular" stylesheets="@button.css" text="Place Order">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+.regular{
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-background-color: transparent;
+    -fx-border-color: #1900ff;
+    -fx-border-width: 5px;
+    -fx-font-family: Calibri;
+    -fx-font-size: 20;
+}

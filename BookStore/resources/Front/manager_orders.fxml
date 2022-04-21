@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="398.0" prefWidth="805.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Front.managerOrders">
+   <children>
+      <Line endX="702.300048828125" layoutX="102.0" layoutY="157.0" startX="-107.0" />
+      <Label fx:id="id1" layoutX="42.0" layoutY="166.0" prefHeight="31.0" prefWidth="86.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="error" layoutX="203.0" layoutY="28.0" prefHeight="26.0" prefWidth="542.0" textFill="#f80303">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="562.0" layoutY="341.0" mnemonicParsing="false" onAction="#next" text="Next" />
+      <Button layoutX="484.0" layoutY="341.0" mnemonicParsing="false" onAction="#prev" prefHeight="26.0" prefWidth="42.0" text="Prev" />
+      <Label fx:id="id2" layoutX="42.0" layoutY="216.0" prefHeight="31.0" prefWidth="86.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="id3" layoutX="38.0" layoutY="270.0" prefHeight="31.0" prefWidth="86.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="i1" layoutX="140.0" layoutY="161.0" prefHeight="31.0" prefWidth="86.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="i2" layoutX="137.0" layoutY="212.0" prefHeight="31.0" prefWidth="86.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="i3" layoutX="137.0" layoutY="268.0" prefHeight="31.0" prefWidth="86.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p1" layoutX="366.0" layoutY="166.0" prefHeight="31.0" prefWidth="95.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p2" layoutX="365.0" layoutY="216.0" prefHeight="31.0" prefWidth="95.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="p3" layoutX="365.0" layoutY="266.0" prefHeight="31.0" prefWidth="95.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="name13" layoutX="38.0" layoutY="117.0" prefHeight="31.0" prefWidth="95.0" text="Order id">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="name122" layoutX="150.0" layoutY="117.0" prefHeight="31.0" prefWidth="70.0" text="ISBN">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="name1211" layoutX="365.0" layoutY="117.0" prefHeight="31.0" prefWidth="95.0" text="Publisher">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="d1" layoutX="694.0" layoutY="164.0" mnemonicParsing="false" onAction="#del1" prefHeight="26.0" prefWidth="85.0" text="Delete" textFill="RED" />
+      <Button fx:id="d2" layoutX="694.0" layoutY="217.0" mnemonicParsing="false" onAction="#del2" prefHeight="26.0" prefWidth="85.0" text="Delete" textFill="RED" />
+      <Button fx:id="d3" layoutX="694.0" layoutY="273.0" mnemonicParsing="false" onAction="#del3" prefHeight="26.0" prefWidth="85.0" text="Delete" textFill="RED" />
+      <Label layoutX="6.0" prefHeight="28.0" prefWidth="158.0" text="View orders" textFill="#1900ff">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="am1" layoutX="239.0" layoutY="166.0" prefHeight="31.0" prefWidth="95.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="am2" layoutX="238.0" layoutY="216.0" prefHeight="31.0" prefWidth="95.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="am3" layoutX="238.0" layoutY="266.0" prefHeight="31.0" prefWidth="95.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="name12111" layoutX="238.0" layoutY="117.0" prefHeight="31.0" prefWidth="95.0" text="Amount">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="s1" layoutX="485.0" layoutY="166.0" prefHeight="31.0" prefWidth="95.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="s2" layoutX="484.0" layoutY="216.0" prefHeight="31.0" prefWidth="95.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="s3" layoutX="484.0" layoutY="266.0" prefHeight="31.0" prefWidth="95.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="name12112" layoutX="484.0" layoutY="117.0" prefHeight="31.0" prefWidth="95.0" text="Status">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="c1" layoutX="596.0" layoutY="163.0" mnemonicParsing="false" onAction="#con1" prefHeight="26.0" prefWidth="85.0" text="Confirm" />
+      <Button fx:id="c2" layoutX="596.0" layoutY="216.0" mnemonicParsing="false" onAction="#con2" prefHeight="26.0" prefWidth="85.0" text="Confirm" />
+      <Button fx:id="c3" layoutX="596.0" layoutY="272.0" mnemonicParsing="false" onAction="#con3" prefHeight="26.0" prefWidth="85.0" text="Confirm" />
+   </children>
+</AnchorPane>

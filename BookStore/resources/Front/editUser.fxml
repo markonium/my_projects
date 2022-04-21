@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="410.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Front.EditUser">
+   <children>
+      <TextField fx:id="userName" layoutX="180.0" layoutY="83.0" prefHeight="25.0" prefWidth="226.0" />
+      <Label layoutX="55.0" layoutY="83.0" prefHeight="25.0" prefWidth="89.0" text="Username" textFill="#1900ff">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="120.0" prefHeight="25.0" prefWidth="89.0" text="First name" textFill="#1900ff">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="157.0" prefHeight="25.0" prefWidth="89.0" text="Last name" textFill="#1900ff">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="195.0" prefHeight="25.0" prefWidth="89.0" text="Email" textFill="#1900ff">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="310.0" prefHeight="25.0" prefWidth="89.0" text="Password" textFill="#1900ff">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="346.0" prefHeight="25.0" prefWidth="102.0" text="Confirm Pass" textFill="#1900ff">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Fname" layoutX="180.0" layoutY="120.0" prefHeight="25.0" prefWidth="226.0" />
+      <TextField fx:id="Lname" layoutX="180.0" layoutY="157.0" prefHeight="25.0" prefWidth="226.0" />
+      <TextField fx:id="Email" layoutX="180.0" layoutY="195.0" prefHeight="25.0" prefWidth="226.0" />
+      <Label layoutX="55.0" layoutY="233.0" prefHeight="25.0" prefWidth="89.0" text="Phone" textFill="#1900ff">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="phone" layoutX="180.0" layoutY="233.0" prefHeight="25.0" prefWidth="226.0" />
+      <PasswordField fx:id="pass" layoutX="181.0" layoutY="310.0" prefHeight="25.0" prefWidth="226.0" />
+      <PasswordField fx:id="confirmPass" layoutX="180.0" layoutY="346.0" prefHeight="25.0" prefWidth="226.0" />
+      <Label layoutX="15.0" prefHeight="39.0" prefWidth="169.0" text="Edit your info" textAlignment="CENTER" textFill="#1900ff">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="268.0" prefHeight="25.0" prefWidth="89.0" text="Address" textFill="#1900ff">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="address" layoutX="181.0" layoutY="268.0" prefHeight="25.0" prefWidth="226.0" />
+      <Button layoutX="463.0" layoutY="83.0" mnemonicParsing="false" onAction="#eu" text="Edit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="463.0" layoutY="120.0" mnemonicParsing="false" onAction="#ef" text="Edit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="463.0" layoutY="157.0" mnemonicParsing="false" onAction="#el" text="Edit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="463.0" layoutY="195.0" mnemonicParsing="false" onAction="#ee" text="Edit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="463.0" layoutY="228.0" mnemonicParsing="false" onAction="#ep" text="Edit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="463.0" layoutY="265.0" mnemonicParsing="false" onAction="#ea" text="Edit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="463.0" layoutY="346.0" mnemonicParsing="false" onAction="#epass" text="Edit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="error" layoutX="180.0" layoutY="39.0" prefHeight="18.0" prefWidth="439.0" textFill="#e40d0d">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
