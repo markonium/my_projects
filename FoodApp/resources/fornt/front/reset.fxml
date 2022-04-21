@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="337.0" prefWidth="324.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fornt.front.Reset">
+   <children>
+      <Label layoutX="57.0" layoutY="59.0" prefHeight="26.0" prefWidth="210.0" text="Please, check your e-mail for">
+         <font>
+            <Font name="Tahoma" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="85.0" prefHeight="26.0" prefWidth="178.0" text="the confirmation code*">
+         <font>
+            <Font name="Tahoma" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="code" layoutX="69.0" layoutY="119.0" prefHeight="32.0" prefWidth="187.0" promptText="Confirmation code" style="-fx-border-color: #D32F2F;" />
+      <Button layoutX="115.0" layoutY="169.0" mnemonicParsing="false" onAction="#confirm" prefHeight="32.0" prefWidth="95.0" style="-fx-background-color: #D32F2F; -fx-text-fill: white;" text="Confirm">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="error" layoutX="31.0" layoutY="29.0" prefHeight="17.0" prefWidth="268.0" textFill="RED" />
+      <Label layoutX="130.0" layoutY="276.0" prefHeight="26.0" prefWidth="194.0" text="*You may need to check your spam folder">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Button layoutX="20.0" layoutY="273.0" mnemonicParsing="false" onAction="#back" prefHeight="32.0" prefWidth="37.0" styleClass="pre" stylesheets="@button.css">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <tooltip>
+            <Tooltip text="Go back" />
+         </tooltip></Button>
+   </children>
+</Pane>

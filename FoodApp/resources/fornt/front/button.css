@@ -1,0 +1,82 @@
+.regular{
+    -fx-background-color: transparent;
+    -fx-border-color: #b51319;
+    -fx-border-width: 3px;
+    -fx-border-radius: 30px;
+
+}
+.bilnd{
+    -fx-background-color: transparent;
+}
+.exit{
+    -fx-background-image: url("pics/exit.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+.delete{
+    -fx-background-image: url("pics/delete.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+.add{
+    -fx-background-image: url("pics/add.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+.next{
+    -fx-background-image: url("pics/next.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+.pre{
+    -fx-background-image: url("pics/pre.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+.cart{
+    -fx-background-image: url("pics/cart.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+.settings{
+    -fx-background-image: url("pics/settings.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+.remove{
+    -fx-background-image: url("pics/remove.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+.history{
+    -fx-background-image: url("pics/history.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+.refresh1{
+    -fx-background-image: url("pics/refresh1.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+.refresh2{
+    -fx-background-image: url("pics/refresh2.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
+.refresh3{
+    -fx-background-image: url("pics/refresh3.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+}
